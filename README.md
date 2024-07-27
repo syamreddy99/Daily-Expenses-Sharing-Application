@@ -18,9 +18,9 @@
 The Daily Expenses Sharing Application allows users to add expenses and split them among participants using three different methods: equal splits, exact amounts, and percentages. The application also provides features for user management and generates downloadable balance sheets.
 
 ## Features
-#### User Management:
+### User Management:
   - Create and retrieve user details.
-#### Expense Management:
+### Expense Management:
   - Add expenses and split them in multiple ways.
   - Validate inputs to ensure data integrity.
   - Generate balance sheets for individual users and overall expenses.
@@ -84,7 +84,7 @@ Before you begin, ensure you have the following installed:
 
 
 # API Endpoints
- #### Base URL
+ ### Base URL
  - http://localhost:9982
 ## User Endpoints
 
@@ -93,7 +93,7 @@ Before you begin, ensure you have the following installed:
  - Method: POST
  - URL: /api/users
  - Description: Creates a new user.
- #### Request Body:
+ ### Request Body:
   
    - {
    - "email": "john.doe@example.com",
@@ -116,7 +116,7 @@ Before you begin, ensure you have the following installed:
 - Method: POST
 - URL: /api/expenses
 - Description: Adds a new expense.
-#### Request Body: 
+### Request Body: 
    - {
    -  "description": "Dinner",
    - "amount": 120.50,
@@ -174,9 +174,9 @@ Before you begin, ensure you have the following installed:
 
 - The database structure consists of the following tables:
 
- #### users: 
+ ### users: 
 - Stores user details such as email, name, and mobile number.
- #### expenses: 
+ ### expenses: 
  - Stores expense details including description, amount, date, and user ID.
-#### splits: 
+### splits: 
 - Stores information about how expenses are split among users.
