@@ -44,8 +44,8 @@ Before you begin, ensure you have the following installed:
 ## Installation
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/syamreddy99/Daily-Expenses-Sharing-Application
+   cd Daily-Expense-Sharing-Application
 # configuration 
   ### Database Configuration:
 
