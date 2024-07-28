@@ -1,54 +1,55 @@
-# Daily Expenses Sharing Application
+# 🏦 Daily Expenses Sharing Application
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Configuration](#configuration)
-  - [Running the Application](#running-the-application)
-- [API Endpoints](#api-endpoints)
-  - [User Endpoints](#user-endpoints)
-  - [Expenses Endpoints](#expenses-endpoints)
-- [Database Structure](#database-structure)
+- [📘 Introduction](#Introduction)
+- [✨ Features](#features)
+- [💻 Technologies Used](#technologies-used)
+- [🚀 Getting Started](#getting-started)
+  - [📋 Prerequisites](#prerequisites)
+  - [🔧 Installation](#installation)
+  - [⚙️ Configuration](#configuration)
+  - [▶️ Running the Application](#running-the-application)
+- [🔗 API Endpoints](#api-endpoints)
+  - [👥 User Endpoints](#user-endpoints)
+  - [💰 Expenses Endpoints](#expenses-endpoints)
+- [🗄️ Database Structure](#database-structure)
 
-## Introduction
+## 📘 Introduction
 The Daily Expenses Sharing Application allows users to add expenses and split them among participants using three different methods: equal splits, exact amounts, and percentages. The application also provides features for user management and generates downloadable balance sheets.
 
-## Features
+## ✨ Features
 ### User Management:
-  - Create and retrieve user details.
+  - 👤Create and retrieve user details.
 ### Expense Management:
-  - Add expenses and split them in multiple ways.
-  - Validate inputs to ensure data integrity.
-  - Generate balance sheets for individual users and overall expenses.
+  - 💸 Add expenses and split them in multiple ways.
+  - ✅ Validate inputs to ensure data integrity.
+  - 📊 Generate balance sheets for individual users and overall expenses.
 
-## Technologies Used
-- Java 17
-- Spring Boot
-- Hibernate
-- MySQL
-- Apache Maven
-- Lombok (for boilerplate reduction)
+## 💻 Technologies Used
+- ☕ Java 17
+- 🖥️ Spring Boot
+- 🗃️ Hibernate
+- 🛢️ MySQL
+- 📦 Apache Maven
+- 📝 Lombok (for boilerplate reduction)
 
-## Getting Started
+## 🚀 Getting Started
 
-## Prerequisites
+### 📋 Prerequisites
 Before you begin, ensure you have the following installed:
-- Java 17 or above
-- Apache Maven
-- MySQL Workbench
-- Ecilpse or Spring Tool Suite
-- Postman
+- ☕ Java 17 or abovee
+- 🛠️Apache Maven
+- 🛢️ MySQL Workbench
+- 🖥️ Eclipse or Spring Tool Suite
+- 📨 Postman
 
-## Installation
+### 🔧 Installation
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/syamreddy99/Daily-Expenses-Sharing-Application
    cd Daily-Expense-Sharing-Application
-# configuration 
+
+# ⚙️configuration 
   ### Database Configuration:
 
    Create a database named "dailyexpenses".
@@ -89,7 +90,7 @@ Before you begin, ensure you have the following installed:
 
      - Sets the logging level for Spring framework classes.
  
-### Running the Application
+### ▶️Running the Application
  
  - Import the Project: Unzip the project file and import it into your IDE (e.g., Eclipse).
  - Create the Database: Create a MySQL database named DailyExpenses.
@@ -97,10 +98,10 @@ Before you begin, ensure you have the following installed:
  - Run the Application: Start the application from your IDE.
 
 
-# API Endpoints
+# 🔗API Endpoints
  ### Base URL
  - http://localhost:9982
-## User Endpoints
+## 👥User Endpoints
 
 ### Create User
 
@@ -125,7 +126,7 @@ Before you begin, ensure you have the following installed:
 - Response: Status: 200 OK
 - Body: UserDTO object
 
-## Expenses Endpoints
+## 💰Expenses Endpoints
 ### Add Expenses
 - Method: POST
 - URL: /api/expenses
@@ -184,7 +185,7 @@ Before you begin, ensure you have the following installed:
  - Content-Disposition: attachment; filename=balance_sheet.csv
  - Content-Type: application/csv
  -  Body: CSV file
-## Database Structure
+## 🗄️Database Structure
 
 - The database structure consists of the following tables:
 
