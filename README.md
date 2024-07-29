@@ -26,22 +26,23 @@ The Daily Expenses Sharing Application allows users to add expenses and split th
   - 📊 Generate balance sheets for individual users and overall expenses.
 
 ## 💻 Technologies Used
-- ☕ Java 17
-- 🖥️ Spring Boot
-- 🗃️ Hibernate
-- 🛢️ MySQL
-- 📦 Apache Maven
-- 📝 Lombok (for boilerplate reduction)
+- ☕ **Java 17** ![Java](https://img.shields.io/badge/-Java-007396?style=flat&logo=java&logoColor=white)
+- 🖥️ **Spring Boot** ![SpringBoot](https://img.shields.io/badge/-SpringBoot-6DB33F?style=flat&logo=springboot&logoColor=white)
+- 🗃️ **Hibernate** ![Hibernate](https://img.shields.io/badge/-Hibernate-59616B?style=flat&logo=hibernate&logoColor=white)
+- 🛢️ **MySQL** ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+- 📦 **Apache Maven** ![Maven](https://img.shields.io/badge/-Maven-C71A36?style=flat&logo=apache-maven&logoColor=white)
+- 📝 **Lombok** ![Lombok](https://img.shields.io/badge/-Lombok-2C2D72?style=flat&logo=lombok&logoColor=white)
 
 ## 🚀 Getting Started
 
 ### 📋 Prerequisites
 Before you begin, ensure you have the following installed:
-- ☕ Java 17 or abovee
-- 🛠️Apache Maven
-- 🛢️ MySQL Workbench
-- 🖥️ Eclipse or Spring Tool Suite
-- 📨 Postman
+- ☕ **Java 17** or above ![Java](https://img.shields.io/badge/-Java-007396?style=flat&logo=java&logoColor=white)
+- 🛠️ **Apache Maven** ![Maven](https://img.shields.io/badge/-Maven-C71A36?style=flat&logo=apache-maven&logoColor=white)
+- 🛢️ **MySQL Workbench** ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+- 🖥️ **Eclipse** or **Spring Tool Suite** ![Eclipse](https://img.shields.io/badge/-Eclipse-2C2D72?style=flat&logo=eclipse&logoColor=white)
+- 📨 **Postman** ![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=flat&logo=postman&logoColor=white)
+
 
 ### 🔧 Installation
 1. **Clone the Repository**:
