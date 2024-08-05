@@ -14,7 +14,7 @@
   - [💰 Expenses Endpoints](#expenses-endpoints)
 - [🗄️ Database Structure](#database-structure)
 
-## 📘 Introduction
+# 📘 Introduction
 The Daily Expenses Sharing Application allows users to add expenses and split them among participants using three different methods: equal splits, exact amounts, and percentages. The application also provides features for user management and generates downloadable balance sheets.
 
 ## ✨ Features
