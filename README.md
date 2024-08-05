@@ -1,18 +1,18 @@
 # 🏦 Daily Expenses Sharing Application
 
 ## Table of Contents
-- [📘 Introduction](#Introduction)
-- [✨ Features](#features)
-- [💻 Technologies Used](#technologies-used)
-- [🚀 Getting Started](#getting-started)
-  - [📋 Prerequisites](#prerequisites)
-  - [🔧 Installation](#installation)
-  - [⚙️ Configuration](#configuration)
-  - [▶️ Running the Application](#running-the-application)
+- [📘 Introduction](#-introduction)
+- [✨ Features](#-features)
+- [💻 Technologies Used](#-technologies-used)
+- [🚀 Getting Started](#-getting-started)
+  - [📋 Prerequisites](#-prerequisites)
+  - [🔧 Installation](#-installation)
+  - [⚙️ Configuration](#%EF%B8%8Fconfiguration)
+- [▶️ Running the Application](#%EF%B8%8Frunning-the-application)
 - [🔗 API Endpoints](#api-endpoints)
   - [👥 User Endpoints](#user-endpoints)
   - [💰 Expenses Endpoints](#expenses-endpoints)
-- [🗄️ Database Structure](#database-structure)
+- [🗄️ Database Structure](#%EF%B8%8Fdatabase-structure)
 
 # 📘 Introduction
 The Daily Expenses Sharing Application allows users to add expenses and split them among participants using three different methods: equal splits, exact amounts, and percentages. The application also provides features for user management and generates downloadable balance sheets.
